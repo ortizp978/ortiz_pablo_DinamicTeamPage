@@ -1,0 +1,134 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#siteContainer {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.mainHeader {
+  width: 748px;
+  padding: 66px 225px 60px;
+  background-color: #0075a9;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  background-image: url('../images/background.png');
+}
+
+.title {
+  grid-column: 1 / -1;
+}
+
+.title h1{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+}
+
+.mainHeader h2 {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 7.5em;
+  color: #fff;
+}
+
+.mainHeader p {
+  width: 605px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.leftKey {
+  text-align: right;
+}
+
+.rightKey {
+  text-align: left;
+}
+
+.teamBio {
+  width: 748px;
+  margin: 0 auto;
+  padding: 50px 50px 20px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.crew {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.crew h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #0075a9;
+}
+
+.crew h3 {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.photo_pablo {
+	width: 211px;
+	height: 211px;
+	display:inline-block;
+	overflow:hidden;
+  background-image:url(../images/pablo_bn.png);
+}
+
+.photo_pablo:hover {background-image:url(../images/pablo.png) }
+
+.photo_olbap {
+	width: 211px;
+	height: 211px;
+	display:inline-block;
+	overflow:hidden;
+  background-image:url(../images/olbap_bn.png);
+}
+
+.photo_olbap:hover {background-image:url(../images/olbap.png) }
+
+.photo_tilex {
+	width: 211px;
+	height: 211px;
+	display:inline-block;
+	overflow:hidden;
+  background-image:url(../images/tilex_bn.png);
+}
+
+.photo_tilex:hover {background-image:url(../images/tilex.png) }
+
+.textBio {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.2em;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.bottomLine {
+  width: 100%;
+  height: 5px;
+  background-color: #0075a9;
+  margin-bottom: 30px;
+}
